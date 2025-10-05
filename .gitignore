@@ -1,0 +1,30 @@
+# Node
+node_modules/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env
+*.env
+frontend/.env
+backend/.env
+
+# Build
+frontend/dist/
+
+# Logs
+*.log
+
+# Data
+backend/storage/
+!backend/storage/.gitkeep
+!backend/storage/audio/.gitkeep
+!backend/storage/videos/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
